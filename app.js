@@ -14,7 +14,7 @@ function getComputerChoice(){
     return choices[randomNumber];
 }
 
-function convertToWord(letter){
+function convertToWord(letter){          
     if (letter === "r") return "Rock";
     if (letter === "p") return "Paper";
     return "Scissors";
